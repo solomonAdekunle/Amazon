@@ -63,7 +63,7 @@
 						<argument>--plugin</argument>
 						<argument>html:target/cucumber-html-report</argument>
 						<argument>--tags</argument>
-						<argument>@AllProductMenu,@CableAndWireProduct,@Search,@Semiconductor</argument>
+						<argument>@TestA,@TestB</argument>
 						<argument>--glue</argument>
 						<argument>com/</argument>
 						<argument>src/</argument>

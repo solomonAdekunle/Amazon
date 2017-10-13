@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="28.620385">
+<testcase classname="Search Functionality" name="Searching for Selenium book" time="9.786543">
+<system-out><![CDATA[Given I am on Amazon Home Page on "browser".................................passed
+When I enter my search as "Selenium Automation".............................passed
+And I click enter...........................................................passed
+Then I should be Presented with a search result page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add To Cart" name="Navigate to Selenium book page" time="9.962502">
+<system-out><![CDATA[Given I am the Search Return Result Page on "browser".......................passed
+When I click on Selenium Automation book link...............................passed
+Then I should navigate to Selenium book title Page..........................passed
+And I should see the Price of the Book......................................passed
+And I should see Add to Cart button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add To Cart" name="Add To cart" time="8.87134">
+<system-out><![CDATA[Given I am on the Selenium tile Page on "browser"...........................passed
+When I check my Trolley basket..............................................passed
+And I click on Add To Cart button...........................................passed
+Then I should see my Selenium book added to cart............................passed
+And I should see my Trolleybasket with one Added Selenium book..............passed
+]]></system-out>
+</testcase>
+</testsuite>
